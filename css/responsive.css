@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1260px) {
+    .corner-img {
+        display: none;
+    }
+
+    .header-book:hover .header-book-in p {
+        letter-spacing: 0.4px;
+    }
+
+    .home-delivery {
+        display: none;
+    }
+
+    .reservation .f-phone-adress {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    :root {
+        font-size: 57%;
+    }
+    .swiper-container-horizontal > .mypagination {
+        top: 13%;
+        left: 90%;
+    }
+    
+    .slider-explore {
+        display: none;
+    }
+
+    .header-book:hover .header-book-in p {
+        letter-spacing: 0;
+    }
+
+    .slider-bottom-content {
+        justify-content: center;
+    }
+
+    .slider-attachment {
+        top: 24vw;
+    }
+
+    .specials {
+        margin-bottom: 53vw;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    :root {
+        font-size: 53%;
+    }
+    .specials {
+        margin-bottom: 55vw;
+    }
+    .reservation-img,
+    .reservation-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .reservation-submit {
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    .reservation-img,
+    .input-container {
+        margin-bottom: 3vw;
+    }
+
+    .shawarma {
+        display: none;
+    }
+
+    .header-book-in {
+        width: 95%;
+    }
+
+    
+     .speciality-content,
+     .speciality-img {
+        width: 100%;
+    }
+
+    .speciality-content {
+        padding: 3vh 5vh;
+    }
+
+    .reason-title {
+        margin: 15px 0;
+    }
+    
+    .cook-section .section-content {
+        justify-content: space-evenly;
+    }
+    
+    .cook-container {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    :root {
+        font-size: 50%;
+    }
+    .footer-nav {
+        display: none;
+    }
+
+    .page-background {
+        height: 20vh;
+    }
+    .reservation-img,
+    .reservation-form,
+    .about-pics,
+    .about-restaurant {
+        width: 90%;
+    }
+
+    .swiper-container-horizontal > .mypagination {
+        left: 88%;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .shop-card,
+    .navigation,
+    .header-book {
+        display: none;
+    }
+
+    .topnav {
+        display: block;
+    }
+    .nav-a {
+        font-size: 2rem;
+    }
+    .nav-a:hover {
+        transform: scaleX(0.9);
+    }
+    .header-book-in {
+        padding: 3px;
+    }
+
+    header {
+        border-bottom: 3px solid #FE4C8D;
+    }
+
+    .slider-attachment {
+        display: none;
+    }
+    .about-restaurant > div {
+        display: none;
+    }
+
+    .specials {
+        display: none;
+    }
+
+    .contact-map {
+        height: 400px;
+        border-top: 2px solid #fe4c8d;
+    }
+    .form-section,
+    .address-section {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    :root {
+        font-size: 47%;
+    }
+    .food-container {
+        width: 100%;
+        border-bottom: 2px dashed rgb(254, 76, 141);
+        padding-bottom: 5px;
+    }
+
+    .food-explore {
+        width: 90%;
+    }
+    .food-explore-in {
+        letter-spacing: 8px;
+
+    }
+    .newsletter {
+        display: none;
+    }
+    .mobile-app {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .stores p {
+        font-size: 2rem;
+    }
+
+
+    .stores p {
+        width: 100%;
+    }
+
+    .reviews,
+    .delivery,
+    .phone-adress {
+        flex: 1;
+    }
+
+    .category-svg {
+        transform: scale(0.5);
+    }
+
+    .input-submit {
+        margin-top: 10px;
+        padding: 15px 40px;
+    }
+    .contact-form > div {
+        margin-top: 15px;
+    }
+
+    .uppercase {
+        margin-top: 10px;
+    }
+
+    .cappitalize {
+        word-break: break-word;
+
+    }
+
+    .address-section .socials {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    :root {
+        font-size: 40%;
+    }
+
+    .page-background {
+        display: none;
+    }
+
+    .footer-line {
+        margin-top: 0;
+    }
+
+
+    .happy-clients,
+    .reviews {
+        display: none;
+    }
+    
+    .reviews,
+    .delivery {
+        justify-content: flex-start;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    footer {
+        padding: 0;
+    }
+
+    .footer-h6 {
+        text-align: center;
+    }
+    .mobile-app {
+        margin-top: 10px;
+    }
+
+    .expertise-list {
+        flex-wrap: wrap;
+    }
+    .expertise-list-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about-chef {
+        padding-left: 10px;
+    }
+    .chef-name {
+        margin: 20px 0;
+    }
+    .chef-subtitle {
+        display: none;
+    }
+
+    .socials-margin {
+        margin: 15px 0;
+    }
+
+    .about-chef .social {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cook-container {
+        width: 45%;
+    }
+
+    .relative {
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    :root {
+        font-size: 35%;
+    }
+}

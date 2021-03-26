@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Luxury</title>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  </head>
+
+  <body>
+    <header class="unsticky">
+      <div class="header-in">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </h1>
+
+        <div class="topnav">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+          <div id="myLinks">
+            <ul class="hambruger-nav">
+              <li><a href="index.html" class="nav-a">home</a></li>
+              <li><a href="menu.html" class="nav-a">menu</a></li>
+              <li><a href="about.html" class="nav-a">about us</a></li>
+              <li><a href="index.html" class="nav-a">reserve table</a></li>
+              <li><a href="contact.html" class="nav-a">contact</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0);" class="icon">
+            <div class="hamburger-container" onclick="toggleHamburger(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="rightside">
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html" class="nav-a">home</a></li>
+              <li><a href="menu.html" class="nav-a">menu</a></li>
+              <li><a href="about.html" class="nav-a">about us</a></li>
+              <li><a href="index.html" class="nav-a">reserve table</a></li>
+              <li><a href="contact.html" class="nav-a">contact</a></li>
+            </ul>
+          </nav>
+
+          <a href="#" class="shop-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              class="shopping-cart"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"
+              />
+            </svg>
+            <div class="shop-card-num">0</div>
+          </a>
+          <div class="header-book">
+            <button class="header-book-in">
+              <svg
+                width="20"
+                height="20"
+                class="plate"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M18.496 24h-.001c-.715 0-1.5-.569-1.5-1.5v-8.5s-1.172-.003-2.467 0c.802-6.996 3.103-14 4.66-14 .447 0 .804.357.807.851.01 1.395.003 16.612.001 21.649 0 .828-.672 1.5-1.5 1.5zm-11.505-12.449c0-.691-.433-.917-1.377-1.673-.697-.56-1.177-1.433-1.088-2.322.252-2.537.862-7.575.862-7.575h.6v6h1.003l.223-6h.607l.173 6h1.003l.242-6h.562l.199 6h1.003v-6h.549s.674 5.005.951 7.55c.098.902-.409 1.792-1.122 2.356-.949.751-1.381.967-1.381 1.669v10.925c0 .828-.673 1.5-1.505 1.5-.831 0-1.504-.672-1.504-1.5v-10.93z"
+                />
+              </svg>
+              <p>book your table</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-background">
+        <h4>menu</h4>
+    </div>
+
+    <section class="menu-page">
+      <div class="food-menu ">
+        <h3 class="section-title">Menu Tile View</h3>
+
+        <ul class="food-category">
+          <li>
+            <svg 
+            class="category-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="25px" height="23px">
+               <image  x="0px" y="0px" width="25px" height="23px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAMAAADJPRQhAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB/lBMVEX+oQD////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD///+oN2SKAAAAqHRSTlMAABA0NjU3FCLCz2YaxvmDf3xsb4B9gdi6+o9MgiFWkf3peus9VQ9YW1pgJToKdeqGozLm0QVSjrvxUXPoQYTyJ1cmYWJHKV0Xfpg75UBJ29bU4oVG0jh0nR0+7WPEwL7HjXZkeRWz9Bw/TxOouUOIbjz41U1oZXIIZ0rzEZ+gnmuc0+CQziSWm6VLGFOH57GLMMsMCQsxB3tQLShELBZt/vbNl6SZX3jwaFOFAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MMBBEhHeTrCacAAAHWSURBVCjPVZGLUxJRFMa/XRcULRcwMVoh1yAQU+zdoklorUYPJUsqrbbSKHua9qSwMq2o6P2S7KXV+TO7d7cY+2bunXPnN985Z74LiGWSjcsulaPcbjdrqUwUUOGgf6qsqizVjmVYXi07XW53zYpaTx3VeWo9XE65eiW8qwAo9T52+8kPCJZWN0B1AY1EawJAkJS1oXBTpFlY19IaRbQNEq3fsHHTZjTRlq18xrY2LdbegagMF21HZ3wHI4mu7p3dVbv0nt7dzONBknTs2buPkf2Rvv7UgYGDhwbTJjlMR3B0SGEkNnzs+AnjZI8jcEpFtBOnaWT0TOYsI0GfP+EPn6sYO+9kngG0XKCLQzVg5FKSb2BcpvAVlROMX6UJcDI5eu368A37zVuiy/TgtpZN3eEkEbmby03J9+7bGi2PEo9PmGQs8qA/Nf0wNhNIq389muWZnH30OPkkL7Q/HbG65TMNfSZ59rzQUVBfvJzOt7IM6oFXGr1+w0norW1QGm9+9/4Dy0CT2VYfjU/giQZLWcsassZcUfd9LurzvSEKfZnXuYpzRhZfib4RfWen8MM7U7B+lL3cQCSZm+JaWMx444sLZp37+UvAEv2mdGmO8B8RFXEJ+QPQsZUjSH5SQQAAAABJRU5ErkJggg==" />
+            </svg>
+            <button
+              style="color: #FE4C8D;"
+              class="category-btn"
+              data-aim="all"
+              onclick="openTab(this)"
+            >
+              all
+            </button>
+          </li>
+          <li>
+            <svg 
+                class="category-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="23px" height="25px">
+               <image  x="0px" y="0px" width="23px" height="25px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAMAAADt/kXiAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAS1BMVEX+oQD////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD///8PRHc6AAAAF3RSTlMAAMBAP5AwIH+AoN+/r1/gELBwYO+fj1Zl1GoAAAABYktHRAH/Ai3eAAAAB3RJTUUH4wwEESMEsrbD5QAAAHpJREFUKM+t0ckOgCAMRdHaiogjjv3/PzXgAJqaaPSuzFkQ4QH4kAkodV/JGgRnfu4KM0CMXeeXaHXiS2Z3NFFFcANRdOtlVTeSu5TgBVHLVjzfv8p316V0vqsT/qdF7N/c9x8fdtc8TmGseeRs23c4z9Ufu1uKstvuC8DlDGdVD9jtAAAAAElFTkSuQmCC" />
+            </svg>
+            <button
+              class="category-btn"
+              data-aim="breakfast"
+              onclick="openTab(this)"
+            >
+              breakfast
+            </button>
+          </li>
+          <li>
+            <svg 
+                class="category-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="26px" height="21px">
+               <image  x="0px" y="0px" width="26px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAVCAMAAABvwg4pAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAV1BMVEX////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD///8sG9KqAAAAG3RSTlMAABA/b3+vv1BAgDAg4GBwn0+Pz+/A3/CwoNBYiCWwAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+MMBBEjGKa3n6oAAACcSURBVCjPzZLtGoIgDEYhIxhfakhl7/3fZyig6OMFdH7ujA02GGM8c+vu4iEV52ynKMKCLsq0ysL5HsMonjKknE3ZbhSYAioxLsYO8lUj7/jRmqi2MlvqJHdyrx4X5JOEmU7MqzLpPpq3pKBGSCUpP+asckm6UrXXn6hwVl+UpTj4o/JwZZUKCKIh7UbVLSt3nK1TzQcw7XBzH/YDUuoRkHA6t1UAAAAASUVORK5CYII=" />
+            </svg>
+            <button
+              class="category-btn"
+              data-aim="lunch"
+              onclick="openTab(this)"
+            >
+              lunch
+            </button>
+          </li>
+          <li>
+            <svg 
+                class="category-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="23px" height="24px">
+               <image  x="0px" y="0px" width="23px" height="24px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAMAAAAmopZHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEX+oQD////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD////ne2Y6AAAAGXRSTlMAADA/IBB/z4Bw7+DA8JCg30CfsGDQT1Cv3acl1gAAAAFiS0dEAf8CLd4AAAAHdElNRQfjDAQRJCdfkCRQAAAA/UlEQVQoz02R0ZaEIAxDKcIISkEcXM3//+gWERwePJ5rLEmq1Hv09BxD1Jn9zBjHDe4XYA0hACzPONmGk2hMfWEk8huQmxqsmyB7K5rQRHaBHpdXDbX5AdvAVUONO3Gwd/5FpMZFkbl/KGD7cIekNHN1pndxQg9f8ZGfsooSAVzo4eYOWH0AR7Gq84w1HU4Gw2H5++VBJhsZksVYGFyJyclIGrk+p/jytc53OBlXTT94RIjFw2nGzf2T12CxSksV9rybw0H26WG20pFv/cwo51Kotb9lDZSKLxwSOlJfy3UB237VzOCz7/Fc3+UiWXr3Xr58w+B7n+OYnM3w/w/CXxLiX4QeZAAAAABJRU5ErkJggg==" />
+            </svg>
+            <button
+              class="category-btn"
+              data-aim="dinner"
+              onclick="openTab(this)"
+            >
+              dinner
+            </button>
+          </li>
+          <li>
+            <svg 
+                class="category-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="24px" height="24px">
+               <image  x="0px" y="0px" width="24px" height="24px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAV1BMVEX+oQD////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD///+1QrHnAAAAG3RSTlMAADA/EMBAoHDPkGDwUCCA37Dgj+9/0J+vb78KxWZrAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MMBBEkN0InNDQAAAEESURBVCjPZZLZuoMgDIRRWWQLFlFPO+//nieg/Vyaq8gPmWSiEHv0g9yT7ojjXChoIYfhFxjoEYDtn8DB+2AU7AM4wAhZK8YbIISAnpOIdAMJY8REQmi8HiCyvKpAXQCRh2MdWUHq8kwNyBmeUPpvzY67nit4IXg+KEsdfQV1lAK2jhvKsl0F/t4ea60vM4irTs0lMoEZfAMTG0RAee8G6pRX9oreBfxCtIt2W4YWy2brd2jiyWVcIruRx6wufFhBp2SUMilpHqI61lqM4gzWjrW3qolCV0AFerfEwcoTSAv3NdHw3McjWgrM6S7vCdOHY+LEXTdIbt17XR3dd16h1nT+Jf9MkBMvKFZgNwAAAABJRU5ErkJggg==" />
+            </svg>
+            <button
+              class="category-btn"
+              data-aim="soups"
+              onclick="openTab(this)"
+            >
+              soups
+            </button>
+          </li>
+          <li>
+            <svg 
+                class="category-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="26px" height="22px">
+               <image  x="0px" y="0px" width="26px" height="22px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAWCAMAAADpVnyHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEX+oQD////+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD+oQD////ne2Y6AAAAGXRSTlMAAEAwEL+PwPCvzyCA4LBwUO/QP5BgoH/fvFar+wAAAAFiS0dEAf8CLd4AAAAHdElNRQfjDAQRJSzRWcyZAAAA70lEQVQoz22SjY6EIAyEW6iLK+j67837v+gN4nqaswkJ5YMyUxC5hPMiesYFWAVU9h/5F0EIhC9/Q47rqINZqDmp3InszbyJx/HUAm8ryBq0HeALUmWOxjLirLNdnMin6lU9L81MJCGcImt0rOSjBiTNafwz4A9fEYOKXQ6Vu/YIMIlontCYa9HmU4Ss8JEF2y1jEImTsSkTd05RtcbRjUC7CT33QKSnbM9yBc1YZEEqKGFRJgfqsYrj2NEKpyv6b3upP2Z7GdEQldv3UVr6y1oyogJDe77XjGobsG3I42erMJ/Ixrup0S4fwN2i9OoXq0ESyJoqm7wAAAAASUVORK5CYII=" />
+            </svg>
+            <button
+              class="category-btn"
+              data-aim="desserts"
+              onclick="openTab(this)"
+            >
+              dessert
+            </button>
+          </li>
+        </ul>
+
+        <div class="section-content flex-wrap">
+          <div class="food-container foodtab breakfast all">
+            <div class="food-image">
+              <img src="images/chicken.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">fried chicken and wafle</p>
+              <p class="food-description">
+                Half a fried chicken and a Belgian waffle topped with a sweet
+                and strawberry butter
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 21.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+            <div class="food-image">
+              <img src="images/bissel.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">THE BISSELL BREAKFAST</p>
+              <p class="food-description">
+                Two eggs any style, bacon, toast, hashbrowns or grits, and a
+                short stack of pancakes.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 63.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+                <div class="food-image">
+                        <img src="images/rancheros.jpg" alt="foodimage" />
+                      </div>
+            <div class="food-fullname">
+              <p class="food-name">HUEVOS RANCHEROS</p>
+              <p class="food-description">
+                Your choice of eggs served over fried tortilla shells, chorizo
+                sausage, black beans, onions and peppers
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 13.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+            <div class="food-image">
+              <img src="images/rancheros.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">SAN FRANCISCO BENEDICT</p>
+              <p class="food-description">
+                Two poached eggs, Canadian bacon, sliced avocado, and tomato.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 30.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+                <div class="food-image">
+                        <img src="images/twin.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Twin Catch</p>
+              <p class="food-description">
+                A classic New England favorite. Baked North Atlantic cod paired
+                with tender shrimp and crusted with seasoned cracker crumbs and
+                butter.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 20.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+            <div class="food-image">
+                    <img src="images/bbq.jpg" alt="foodimage">
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Honey BBQ Chicken Wrap</p>
+              <p class="food-description">
+                Hand-breaded crispy chicken tenders drenched in honey BBQ sauce.
+                Wrapped up with lettuce, tomatoes, Monterey Jack
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 13.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+            <div class="food-image">
+                    <img src="images/pastrami.jpg" alt="foodimage">
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Pastrami Stack</p>
+              <p class="food-description">
+                Warm smoked pastrami drizzled with apple BBQ sauce, topped with
+                applewood smoked bacon and chipotle sauce.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 11.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+            <div class="food-image">
+                    <img src="images/housesalad.jpg" alt="foodimage">
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Soup & House Salad</p>
+              <p class="food-description">
+                A fresh House Salad paired with a crock of creamy chowder or
+                steaming soup.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 10.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/cobb.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Cobb Salad</p>
+              <p class="food-description">
+                Chopped turkey, egg, peas, bacon, cheese and tomato. Layered on
+                a bed of crisp lettuce
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 33.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/grilled.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Breaded or Grilled Chicken Salad</p>
+              <p class="food-description">
+                Your choice of breaded chicken tenders or all-natural grilled
+                chicken breast, sliced on top of crisp lettuce with all the
+                trimmings.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 31.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/veggieplate.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Vegetable Plate</p>
+              <p class="food-description">
+                Choice of three side dishes and homemade bread. 7.95. Add a
+                fourth side for 1.65.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 43.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/cod.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Alaskan Cod</p>
+              <p class="food-description">
+                Mild thick white fish made to order. Baked with light seasonings
+                or hand breaded and fried to a golden brown
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 14.00</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/homesoup.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Homemade Soup of the Day</p>
+              <p class="food-description">
+                Ask your server Cup 3.50 Bowl, vegetable soup teams with a
+                fruity salad
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 4.00</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/chili.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Mom’s Homemade Chili</p>
+              <p class="food-description">
+                Cup 3.75 Bowl, Pair hearty main dish soups all with bread for a
+                satisfying supper
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 3.50</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/spicy.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Sweet 'n' Spicy Soup Supper</p>
+              <p class="food-description">
+                A few spoonfuls of curry heighten the aroma of butternut and
+                apple in this hearty soup. Pair with tender scones for a
+                satisfying supper.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 8.00</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/crowd.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Soup 'n' Salad for a Crowd</p>
+              <p class="food-description">
+                Dumpling-topped vegetable soup teams with a fruity salad in this
+                appealingly hearty dinner
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 8.50</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/berry.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Mixed berry mousse</p>
+              <p class="food-description">
+                A mousse is always a great dessert option, thanks to its texture
+                and its simplicity.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 11.50</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/cheesecake.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Re-invented cheesecake</p>
+              <p class="food-description">
+                Take the classic American cheesecake and add other ingredients
+                to bring out the flavors
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 19.00</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/carrot.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Homemade carrot cake</p>
+              <p class="food-description">
+                Carrot cake is one of the most popular cakes around these days.
+                This home-style cake has been re-invented with a thick
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 8.50</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/matcha.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Matcha cake</p>
+              <p class="food-description">
+                Matcha is still a leader in the health trend. It is commonly
+                found in traditional Japanese mochi
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 11.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+                <div class="food-image">
+                        <img src="images/western.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">WESTERN</p>
+              <p class="food-description">
+                Ham, cheddar cheese, mushrooms, onions, tomatoes, and peppers.
+                Topped with salsa.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 53.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+                <div class="food-image">
+                        <img src="images/brepie.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">BREAKFAST PIE</p>
+              <p class="food-description">
+                A Metro original! Layers of eggs, cheese, mushrooms, onions,
+                peppers and red skin potatoes, served with a side
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 88.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+                <div class="food-image">
+                        <img src="images/gravy.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">BISCUITS & SAUSAGE GRAVY</p>
+              <p class="food-description">
+                Two large biscuits topped with our own hearty, made from scratch
+                sausage gravy, accompanied by two eggs
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 40.00</p>
+          </div>
+          <div class="food-container foodtab breakfast all">
+                <div class="food-image">
+                        <img src="images/chickenbiscuit.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">SPICY HONEY CHICKEN BISCUIT</p>
+              <p class="food-description">
+                Fried chicken tender with spicy honey on a biscuit.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 50.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+                <div class="food-image">
+                        <img src="images/tacos.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Crispy Fish Tacos</p>
+              <p class="food-description">
+                Warm flour tortillas filled with crispy fried North Atlantic
+                cod, fresh cabbage, fresh pico de gallo and chipotle sauce.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 8.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+                <div class="food-image">
+                        <img src="images/crispyfish.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Crispy Fish</p>
+              <p class="food-description">
+                Warm flour tortillas filled with crispy fried North Atlantic
+                cod, fresh cabbage, fresh pico de gallo and chipotle sauce.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 8.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+                <div class="food-image">
+                        <img src="images/rib.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Braised Short Rib Tacos</p>
+              <p class="food-description">
+                Monterey Jack and cheddar cheeses and chipotle sauce. Served
+                with sour cream
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 9.00</p>
+          </div>
+          <div class="food-container foodtab lunch all">
+                <div class="food-image">
+                        <img src="images/fajita.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Chicken Fajita Flatbread</p>
+              <p class="food-description">
+                sweet caramelized onions and served on a slice of cheesy garlic
+                bread. Served with balsamic steak sauce for dipping.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 12.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/grits.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Shrimp & Grits</p>
+              <p class="food-description">
+                Southern goodness. Grilled seasoned shrimp served on homemade
+                cheesy grits with one side chicken breast, sliced on top of
+                crisp lettuce with all the trimmings.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 21.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/melt.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Pot Roast Melt</p>
+              <p class="food-description">
+                Topped with sautéed onions and melted provolone on a sub roll.
+                Served with Au jus.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 37.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/southern.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Southern Fried Chicken B.L.T</p>
+              <p class="food-description">
+                Crispy fried all-natural chicken breast, applewood smoked bacon,
+                dijonnaise, fresh lettuce and tomato on a hoagie roll
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 34.00</p>
+          </div>
+          <div class="food-container foodtab dinner all">
+                <div class="food-image">
+                        <img src="images/meatloaf.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Mom’s Meatloaf</p>
+              <p class="food-description">
+                A country-style favorite! Perfectly seasoned and smothered in
+                our made-from-stock beef gravy.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 41.00</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/sandwich.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Cup of Soup and Half Sandwich</p>
+              <p class="food-description">
+                Tuna or Chicken Salad, May have contains what you want from our
+                ingredients
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 7.00</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/stew.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Bacon and Beef Stew</p>
+              <p class="food-description">
+                Savory, rich bacon and beef pair perfectly with beer, mustard,
+                and red wine vinegar creating a well-rounded
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 5.50</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/soulful.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Soulful Soup Supper</p>
+              <p class="food-description">
+                Pair a main-dish soup with a slice of rustic bread for a filling
+                yet meatless supper
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 4.50</p>
+          </div>
+          <div class="food-container foodtab soups all">
+                <div class="food-image">
+                        <img src="images/supper.jpg" alt="foodimage">
+                </div>
+            <div class="food-fullname">
+              <p class="food-name">Soup for Supper</p>
+              <p class="food-description">
+                Pair hearty main dish soups with bread for a satisfying supper
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 3.00</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/vegan.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Vegan chocolate cake</p>
+              <p class="food-description">
+                For environmentally-conscious clients, any vegan dessert is a
+                plus. In this case
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 12.50</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/mango.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Mango and coconut soufflé</p>
+              <p class="food-description">
+                Continuing with the theme of fruits and creamy textures, here’s
+                an option using more exotic fruits.
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 9.00</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/praline.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Praline and ganache cake</p>
+              <p class="food-description">
+                Pralines, which are almonds or hazelnuts mixed with caramelized
+                sugar and somethin like that
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 7.50</p>
+          </div>
+          <div class="food-container foodtab desserts all">
+            <div class="food-image">
+              <img src="images/blondie.jpg" alt="foodimage" />
+            </div>
+            <div class="food-fullname">
+              <p class="food-name">Blondie with vanilla ice cream</p>
+              <p class="food-description">
+                We’re pleased to introduce you to another popular dessert. Her
+                name is Blondie
+              </p>
+            </div>
+            <p class="food-price"><sup>$</sup> 13.00</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="speciality">
+        <div class="speciality-img">
+            <img src="images/speciality.jpg" alt="image">
+        </div>
+        <div class="speciality-content">
+            <h5 class="speciality-h5"> Speciality</h5>
+            <div class="reason">
+                <h6 class="reason-title">excellent service</h6>
+                <p class="reason-text">
+                Survived not only five centuries, 
+                but also the leap into electronic
+                typesetting, remaining essentially unchanged. 
+                </p>
+            </div>
+            <div class="reason">
+                <h6 class="reason-title">free home delivery</h6>
+                <p class="reason-text">
+                Lorem Ipsum is simply dummy text of the printing
+             and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s.
+                </p>
+            </div>
+            <div class="reason">
+                <h6 class="reason-title">cool atmosphere</h6>
+                <p class="reason-text">
+                Letraset sheets containing Lorem Ipsum
+                 passages, and more recently with desktop
+                 publishing software like Aldus PageMaker
+                 including versions of Lorem Ipsum
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+      <div class="section-content">
+        <div class="footer-nav">
+          <h6 class="footer-h6">navigation</h6>
+          <ul class="footer-nav">
+            <li><a href="index.html" class="footer-nav-a">home</a></li>
+            <li><a href="menu.html" class="footer-nav-a">menu</a></li>
+            <li><a href="index.html" class="footer-nav-a">reservation</a></li>
+            <li><a href="about.html" class="footer-nav-a">about us</a></li>
+            <li><a href="contact.html" class="footer-nav-a">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="newsletter">
+          <h6 class="footer-h6">newsletter</h6>
+          <p class="newsletter-p">
+            Enter your email adress and subscribe newsletter daily
+          </p>
+          <form action="/action_page.php" class="newsletter-form">
+            <div class="newsletter-input">
+              <div class="svg-parent">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                  ></path>
+                </svg>
+              </div>
+              <input type="email" name="mail" placeholder="Email Adress" />
+            </div>
+            <input type="button" class="newsletter-button" value="subscribe" />
+          </form>
+          <div class="socials">
+            <a
+              class="social fb"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                />
+              </svg>
+            </a>
+            <a
+              class="social tw"
+              href="https://www.twitter.com/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                />
+              </svg>
+            </a>
+            <a class="social gp" href="https://www.google.com/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="mobile-app">
+          <h6 class="footer-h6">our app available</h6>
+          <a class="stores" href="https://www.apple.com/" target="_blank">
+            <img src="images/apple.png" alt="applelogo" />
+            <p class="stores-p">
+              available on the
+              <span class="stones-span">app store</span>
+            </p>
+          </a>
+          <a
+            class="stores"
+            href="https://play.google.com/store"
+            target="_blank"
+          >
+            <img src="images/googleplay.png" alt="googlelogo" />
+            <p class="stores-p">
+              get it on
+              <span class="stones-span">google play</span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="footer-line">
+        <div class="f-line"></div>
+        <p>2019 &copy luxury restaurant, all rights reserved</p>
+        <div class="f-line"></div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

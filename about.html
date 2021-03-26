@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Luxury</title>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="unsticky">
+      <div class="header-in">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </h1>
+
+        <div class="topnav">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+          <div id="myLinks">
+            <ul class="hambruger-nav">
+              <li><a href="index.html" class="nav-a">home</a></li>
+              <li><a href="menu.html" class="nav-a">menu</a></li>
+              <li><a href="about.html" class="nav-a">about us</a></li>
+              <li><a href="index.html" class="nav-a">reserve table</a></li>
+              <li><a href="contact.html" class="nav-a">contact</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0);" class="icon">
+            <div class="hamburger-container" onclick="toggleHamburger(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="rightside">
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html" class="nav-a">home</a></li>
+              <li><a href="menu.html" class="nav-a">menu</a></li>
+              <li><a href="about.html" class="nav-a">about us</a></li>
+              <li><a href="index.html" class="nav-a">reserve table</a></li>
+              <li><a href="contact.html" class="nav-a">contact</a></li>
+            </ul>
+          </nav>
+
+          <a href="#" class="shop-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              class="shopping-cart"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"
+              />
+            </svg>
+            <div class="shop-card-num">0</div>
+          </a>
+          <div class="header-book">
+            <button class="header-book-in">
+              <svg
+                width="20"
+                height="20"
+                class="plate"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M18.496 24h-.001c-.715 0-1.5-.569-1.5-1.5v-8.5s-1.172-.003-2.467 0c.802-6.996 3.103-14 4.66-14 .447 0 .804.357.807.851.01 1.395.003 16.612.001 21.649 0 .828-.672 1.5-1.5 1.5zm-11.505-12.449c0-.691-.433-.917-1.377-1.673-.697-.56-1.177-1.433-1.088-2.322.252-2.537.862-7.575.862-7.575h.6v6h1.003l.223-6h.607l.173 6h1.003l.242-6h.562l.199 6h1.003v-6h.549s.674 5.005.951 7.55c.098.902-.409 1.792-1.122 2.356-.949.751-1.381.967-1.381 1.669v10.925c0 .828-.673 1.5-1.505 1.5-.831 0-1.504-.672-1.504-1.5v-10.93z"
+                />
+              </svg>
+              <p>book your table</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-background">
+      <h4>about us</h4>
+    </section>
+
+    <section class="about">
+      <h3 class="history-title">Our History</h3>
+      <p class="about-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
+      
+      <video
+        id="my-video"
+        class="video-js vjs-theme-forest"
+        controls
+        preload="auto"
+        data-setup="{}"
+      >
+        <source src="about.mp4" type="video/mp4" />
+        <source src="about.mp4" type="video/webm" />
+      </video>
+    </section>
+    
+
+    <section class="chef-section">
+      <h3 class="chef">head chef</h3>
+      <div class="chef-content">
+
+        <div class="chef-img">
+          <img src="images/chef.jpg" alt="chef">
+        </div>
+
+        <div class="about-chef">
+          <h5 class="chef-name">Chef. Scott McTominay</h5>
+          <p class="chef-subtitle">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy when an unknown printer.
+            took a galley
+          </p>
+          <div class="socials socials-margin">
+              <a
+                class="social fb"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="white"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                  />
+                </svg>
+              </a>
+              <a
+                class="social tw"
+                href="https://www.twitter.com/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="white"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+              <a class="social gp" href="https://www.google.com/" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="white"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+          </div>
+          <h6 class="expertise">expertise in</h6>
+          <div class="expertise-list">
+            <div class="expertise-list-item">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="22px" height="22px">
+               <image  x="0px" y="0px" width="22px" height="22px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB0VBMVEX+TI3////+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3////m5q4cAAAAmXRSTlMAAF3n76JecJ2FL0n02Pzt+0hAzFlpN2foEgyaVXZacZXdiNNiPcUlHZPwZDE4ug6Q5tvlqA+7Zb7Aqw1C3xPyNJlfXP7XG68+jmu3FbVj/aNqyOkajdYUAyEyx0ccHtSBBPbRVqcjrID6wslPlDoFin2D2hbgNfF/qkXhzyIJeTPGKLb17kR3LVRoveMf+RmcmylT97jivyCLt49hAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MMBwodDP9us9UAAAGOSURBVBjTTdH7O9NhGAbw+yUMs63NmAhzGOYwNoSZU44VG3Mu00hOY+XUIsdSTuWQ1P3f9n6/rNw/fq73eq7nuV8gmpjYB3HxCZrEJCHzT5OpTdGRehoe3mOjiakwms1p6ZaUjCg/yiQ1yHqcnZOba2VMlPOYXwAj75J3ywWFNhYVl9hJa2lZeQVtDoUrqwptziKXfFZdDIiaWj4Rygp1Rmd9ltQGt3wkRKPO0wRHfnNLK9uetrOjEyqLLiajmz3P+PxFLw0JuOM+rw++5v4B/+AQOayMGBmVPObyw9ox/tL/ykLGYcIdmHwtOegkpqYxxLY6Gt64J2fezvZJnptfABcR4lK6Trscfvd+eULOXqF+HO2rwbV1y8aH2ACQ5Ilg7SP1mwLWLQc+ebftnlFgZ3eve5X7B/L4z1/S0Hv4dcqkbBf+RrYGlWLNjODo+MTgUzo/5Vm8UL/h+w/LOXDBRmxeyvuvxC0jQtPP48PrXd81t1LVK1UOXlLnVXvOCeA/Ixz6dWP3/C79E+1E5i+iAGm3c4gP6AAAAABJRU5ErkJggg==" />
+               </svg>
+               <p>breakfast</p>
+            </div>
+            <div class="expertise-list-item">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="19px" height="19px">
+               <image  x="0px" y="0px" width="19px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEX+TI3////+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3///9j8syoAAAAGXRSTlMAAJDPbyDgn0BgMKB/XxDA799QcI+wgPDQAjRHOAAAAAFiS0dEAf8CLd4AAAAHdElNRQfjDAcKHR2V3pMnAAAAvElEQVQY01WQ0RqDIAiFKaemFDpdrfP+LzrUr7ZxofiLcI5EPWbzsCObpmkk5AB4+8cWhMjA+ssYZhObYORmkp3Ds1BVeLGAQovDiwrMxXZlJAyvlcdgVodK7+opwXZWgXevP1EsuLPTHXFMR9YOTWZE1cUO4bWfaNabiExU0uzMBtN8JR3qzva6GMDNuiMMM9FnvHlpWhgiamx9AnsYfiUzHcjAWeX6l4CXb00iff9vV8Fc6I7GeA9C9Mc+CwoLTbHSGo0AAAAASUVORK5CYII=" />
+               </svg>
+               <p>starter</p>
+            </div>
+            <div class="expertise-list-item">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="21px" height="17px">
+               <image  x="0px" y="0px" width="21px" height="17px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAARCAMAAAAFWBeyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAQlBMVEX+TI3////+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3+TI3////vi8PlAAAAFHRSTlMAABA/X3+fYECAIL9P36Awb6/A0E88UkYAAAABYktHRAH/Ai3eAAAAB3RJTUUH4wwHCh0rWmQGvgAAAHpJREFUGNO10EESwyAIQFHUGiEW0yr3P2tBMqnTrPtXycsMaAC8mB55K/oQrBMBRSPTPe2XgtSn8FZZPzbVI73ye75pvRPhodrlrNbs2dwiv81t0nCtmXZffRVIp0Ohm5Kd+6Y+9086OC4aeUxF4fyNBf1P4liuOxTDB1ZCCVe+V/mfAAAAAElFTkSuQmCC" />
+               </svg>
+               <p>lunch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cook-section">
+      <h3 class="chef">Chef Team</h3>
+      <div class="section-content">
+
+        <div class="cook-container">
+
+          <div class="first-side">
+            <img src="images/cook.jpg" alt="">
+          <p>cheff, tony martial</p>
+          </div>
+
+          <div class="second-side">
+
+            <div class="second-side-inner">
+              <h6>cheff, tony martial</h6>
+              <p>Survived not only five
+              centuries,but also the leap
+              into electronic typesetting
+              </p>
+            </div>
+            
+
+            <div class="cook-socials">
+
+                <a
+                  class="cook-social"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                </a>
+
+                <a
+                  class="cook-social"
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                </a>
+
+                <a
+                  class="cook-social"
+                  href="https://www.google.com/"
+                  target="_blank"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                </a>
+                
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+                  <img src="images/cook5.jpg" alt="">
+            <p>cheff, romelu lukaku</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6>romelu lukaku</h6>
+              <p>Survived not only five
+              centuries,but also the leap
+              into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+            
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook3.jpg" alt="">
+            <p>cheff, david de gea</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6>cheff, david de gea</h6>
+              <p>Survived not only five
+              centuries,but also the leap
+              into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+            
+        </div>
+          
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook4.jpg" alt="">
+              <p> assistantcheff, victor lindeloff</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6>assistant cheff, victor lindeloff</h6>
+              <p>Survived not only five
+                centuries,but also the leap
+                into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+              
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook6.jpg" alt="">
+              <p>assistant cheff brandon willams</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6>assistant cheff, brandon willams</h6>
+              <p>Survived not only five
+                centuries,but also the leap
+                into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+              
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook2.jpg" alt="">
+              <p>assistant cheff, marcus rashford</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6> assistantcheff, marcus rashford</h6>
+              <p>Survived not only five
+                centuries,but also the leap
+                into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+              
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook7.jpg" alt="">
+              <p>assistant cheff, juan mata</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6> assistant cheff, juan mata</h6>
+              <p>Survived not only five
+                centuries,but also the leap
+                into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+              
+        </div>
+
+        <div class="cook-container">
+
+            <div class="first-side">
+              <img src="images/cook8.jpg" alt="">
+              <p>assistant cheff, nemanja matic</p>
+            </div>
+    
+            <div class="second-side">
+    
+              <h6>assistant cheff, nemanja matic</h6>
+              <p>Survived not only five
+                centuries,but also the leap
+                into electronic typesetting
+              </p>
+    
+              <div class="cook-socials">
+                
+                  <a
+                    class="cook-social"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg> 
+                  </a>
+    
+                  <a
+                    class="cook-social"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 11.5v1.2h1.985c-.08.514-.601 1.51-1.985 1.51-1.194 0-2.17-.99-2.17-2.21s.976-2.21 2.17-2.21c.681 0 1.135.29 1.396.541l.949-.916c-.61-.57-1.401-.915-2.345-.915-1.936 0-3.5 1.565-3.5 3.5s1.564 3.5 3.5 3.5c2.02 0 3.359-1.419 3.359-3.419 0-.23-.024-.405-.055-.58h-3.304zm0 0 8.5 1h-1.5v1.5h-1v-1.5h-1.5v-1h1.5v-1.5h1v1.5h1.5v1z"/></svg>  
+                  </a>
+                  
+              </div>
+    
+            </div>
+              
+        </div>
+
+      </div>
+    </section>
+
+    <section class="working-days">
+      <p class="opening-hours">opening hours</p>
+      <div>
+        <p class="weekdays">Monday to Friday</p>
+        <p class="working-hours">10am - 10pm</p>
+      </div>
+      <div>
+        <p class="weekdays">Saturday to Sunday</p>
+        <p class="working-hours">09am - 11pm</p>
+      </div>
+    </section>
+    
+
+    <footer>
+      <div class="section-content">
+        <div class="footer-nav">
+          <h6 class="footer-h6">navigation</h6>
+          <ul class="footer-nav">
+            <li><a href="index.html" class="footer-nav-a">home</a></li>
+            <li><a href="menu.html" class="footer-nav-a">menu</a></li>
+            <li><a href="index.html" class="footer-nav-a">reservation</a></li>
+            <li><a href="about.html" class="footer-nav-a">about us</a></li>
+            <li><a href="contact.html" class="footer-nav-a">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="newsletter">
+          <h6 class="footer-h6">newsletter</h6>
+          <p class="newsletter-p">
+            Enter your email adress and subscribe newsletter daily
+          </p>
+          <form action="/action_page.php" class="newsletter-form">
+            <div class="newsletter-input">
+              <div class="svg-parent">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                  ></path>
+                </svg>
+              </div>
+              <input type="email" name="mail" placeholder="Email Adress" />
+            </div>
+            <input type="button" class="newsletter-button" value="subscribe" />
+          </form>
+          <div class="socials">
+            <a
+              class="social fb"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                />
+              </svg>
+            </a>
+            <a
+              class="social tw"
+              href="https://www.twitter.com/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                />
+              </svg>
+            </a>
+            <a class="social gp" href="https://www.google.com/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="mobile-app">
+          <h6 class="footer-h6">our app available</h6>
+          <a class="stores" href="https://www.apple.com/" target="_blank">
+            <img src="images/apple.png" alt="applelogo" />
+            <p class="stores-p">
+              available on the
+              <span class="stones-span">app store</span>
+            </p>
+          </a>
+          <a
+            class="stores"
+            href="https://play.google.com/store"
+            target="_blank"
+          >
+            <img src="images/googleplay.png" alt="googlelogo" />
+            <p class="stores-p">
+              get it on
+              <span class="stones-span">google play</span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="footer-line">
+        <div class="f-line"></div>
+        <p>2019 &copy luxury restaurant, all rights reserved</p>
+        <div class="f-line"></div>
+      </div>
+    </footer>
+
+    <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

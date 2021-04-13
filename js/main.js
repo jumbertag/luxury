@@ -17,7 +17,7 @@ var swiper = new Swiper('.swiper1', {
     },
     loop: true,
     autoplay: {
-    delay: 6500,
+    delay: 4500,
      },
   });
 
@@ -27,6 +27,9 @@ var swiper3 = new Swiper('.swiper3', {
     prevEl: '.swiper-button-prev',
   },
   loop: true,
+  autoplay: {
+  delay: 2500,
+     },
 });
 
 
